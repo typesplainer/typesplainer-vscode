@@ -3,8 +3,39 @@
   "displayName": "typesplainer",
   "description": "Explanation for python typehints right in vscode",
   "version": "0.0.1",
+  "author": "Wasi Master <arianmollik323@gmail.com> (https://wasi-master.github.io)",
+  "publisher": "WasiMaster",
+  "icon": "logo.png",
+  "homepage": "https://wasi-master.github.io/typesplainer-vscode",
+  "bugs": {
+    "url": "https://github.com/wasi-master/typesplainer-vscode/issues",
+    "email": "arianmollik323@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wasi-master/typesplainer-vscode"
+  },
+  "keywords": [
+    "python",
+    "typehint",
+    "type hint",
+    "typehint explainer",
+    "typehint explain",
+    "type hint explainer",
+    "type hint explain",
+    "explain typehints",
+    "explain type hints",
+    "python typehint",
+    "python type hint",
+    "python typehint explainer",
+    "python typehint explain",
+    "python type hint explainer",
+    "python type hint explain",
+    "python explain typehints",
+    "python explain type hints"
+  ],
   "engines": {
-    "vscode": "^1.65.0"
+    "vscode": "^1.31.0"
   },
   "categories": [
     "Other"
@@ -49,7 +80,7 @@
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "14.x",
-    "@types/vscode": "^1.65.0",
+    "@types/vscode": "1.65",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
     "@vscode/test-electron": "^2.0.3",

@@ -2,7 +2,7 @@
   "name": "typesplainer",
   "displayName": "typesplainer",
   "description": "Explanation for python typehints right in vscode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Wasi Master <arianmollik323@gmail.com> (https://wasi-master.github.io)",
   "publisher": "WasiMaster",
   "icon": "logo.png",

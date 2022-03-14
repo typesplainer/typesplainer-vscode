@@ -2,7 +2,7 @@
   "name": "typesplainer",
   "displayName": "typesplainer",
   "description": "Explanation for python typehints right in vscode",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Wasi Master <arianmollik323@gmail.com> (https://wasi-master.github.io)",
   "publisher": "WasiMaster",
   "icon": "logo.png",
@@ -42,7 +42,8 @@
   ],
   "activationEvents": [
     "onLanguage:python",
-    "onCommand:typesplainer.explainType"
+    "onCommand:typesplainer.openWebsite",
+    "onCommand:typesplainer.clearCache"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -50,6 +51,10 @@
       {
         "command": "typesplainer.openWebsite",
         "title": "Typesplainer: Open Website"
+      },
+      {
+        "command": "typesplainer.clearCache",
+        "title": "Typesplainer: Clear Cache"
       }
     ],
     "configuration": [

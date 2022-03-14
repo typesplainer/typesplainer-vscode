@@ -135,8 +135,12 @@ export async function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('typesplainer.openWebsite', () => {
 		vscode.env.openExternal(vscode.Uri.parse('https://typesplainer.herokuapp.com/'));
 	});
+	let disposable_ = vscode.commands.registerCommand('typesplainer.clearCache', () => {
+		cache = new LRUCache(100);
+	});
 
 
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(disposable_);
 }
 
